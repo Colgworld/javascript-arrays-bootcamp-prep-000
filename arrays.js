@@ -8,22 +8,21 @@ function addElementToBeginningOfArray(chocolateBars, moreChocolateBars) {
     'skittles'
   ]
 
-  // var moreChocolateBars = 'reeses';
-  chocolateBars.unshift('reeses');
+  var moreChocolateBars = 'reeses';
+  chocolateBars.unshift(moreChocolateBars);
   return chocolateBars
 }
 
 
-
+var chocolateBars2 = [
+  'snickers',
+  'hundred grand',
+  'kitkat',
+  'skittles'
+]
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars2, moreChocolateBars2) {
-  var chocolateBars2 = [
-    'snickers',
-    'hundred grand',
-    'kitkat',
-    'skittles'
-  ]
-
+  var chocolateBars2 = [];
   var moreChocolateBars2 = 'reeses';
   chocolateBars2.unshift(moreChocolateBars2);
   return chocolateBars2
