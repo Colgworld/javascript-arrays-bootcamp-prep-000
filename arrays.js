@@ -12,14 +12,14 @@ function addElementToBeginningOfArray(chocolateBars, moreChocolateBars) {
 
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-
-}
-
-function addElementToEndOfArray() {
-
-}
-
-function destructivelyAddElementEndOfArray() {
-
-}
+// function destructivelyAddElementToBeginningOfArray() {
+//
+// }
+//
+// function addElementToEndOfArray() {
+//
+// }
+//
+// function destructivelyAddElementEndOfArray() {
+//
+// }
