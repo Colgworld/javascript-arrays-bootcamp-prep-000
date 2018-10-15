@@ -6,20 +6,20 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray(chocolateBars, moreChocolateBars) {
-  var moreChocolateBars = 'reeses'
-  chocolateBars.push(moreChocolateBars);
+  var moreChocolateBars = 'reeses';
+  chocolateBars.unshift(moreChocolateBars);
   return chocolateBars
 
 }
 
-// function destructivelyAddElementToBeginningOfArray() {
-//
-// }
-//
-// function addElementToEndOfArray() {
-//
-// }
-//
-// function destructivelyAddElementEndOfArray() {
-//
-// }
+function destructivelyAddElementToBeginningOfArray() {
+
+}
+
+function addElementToEndOfArray() {
+
+}
+
+function destructivelyAddElementEndOfArray() {
+
+}
