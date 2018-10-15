@@ -1,4 +1,4 @@
-var chocolateBars;
+var chocolateBars= [];
 
 function addElementToBeginningOfArray(chocolateBars, moreChocolateBars) {
   var chocolateBars = [
