@@ -8,20 +8,20 @@ var chocolateBars = [
 
 function addElementToBeginningOfArray(array, element) {
   var newArray = [element, ...array];
-  newArray;
+  return newArray;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
-  array;
+  return array;
 }
 
 function addElementToEndOfArray(array, element) {
   array.push(element);
-  array;
+  return array;
 }
 
 function destructivelyAddElementEndOfArray(array, element) {
   array.pop(element);
-  array;
+  return array;
 }
