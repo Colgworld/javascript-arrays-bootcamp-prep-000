@@ -1,4 +1,4 @@
-var chocolateBars = [
+chocolateBars = [
   'snickers',
   'hundred grand',
   'kitkat',
@@ -6,12 +6,6 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray(chocolateBars, moreChocolateBars) {
-  var chocolateBars = [
-    'snickers',
-    'hundred grand',
-    'kitkat',
-    'skittles'
-  ]
   
   var moreChocolateBars = 'reeses';
   chocolateBars.unshift(moreChocolateBars);
