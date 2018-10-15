@@ -25,7 +25,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars2, moreChocolate
   ];
 
   var moreChocolateBars2 = 'reeses';
-  var addABar = chocolateBars2.unshift(moreChocolateBars2);
+  addABar = chocolateBars2.unshift(moreChocolateBars2);
   return addABar;
 }
 
