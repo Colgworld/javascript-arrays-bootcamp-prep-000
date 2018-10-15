@@ -13,21 +13,30 @@ function addElementToBeginningOfArray(chocolateBars, moreChocolateBars) {
   return chocolateBars
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, moreChocolateBars) {
-  var chocolateBars = [
+function destructivelyAddElementToBeginningOfArray(chocolateBars2, moreChocolateBars2) {
+  var chocolateBars2 = [
     'snickers',
     'hundred grand',
     'kitkat',
     'skittles'
   ]
 
-  var moreChocolateBars = 'reeses';
-  chocolateBars.unshift(moreChocolateBars);
-  return chocolateBars
+  var moreChocolateBars2 = 'reeses';
+  chocolateBars2.unshift(moreChocolateBars2);
+  return chocolateBars2
 }
 
-function addElementToEndOfArray() {
+function addElementToEndOfArray(chocolateBars3, moreChocolateBars3) {
+  var chocolateBars3 = [
+    'snickers',
+    'hundred grand',
+    'kitkat',
+    'skittles'
+  ]
 
+  var moreChocolateBars3 = 'reeses';
+  chocolateBars3.push(moreChocolateBars3);
+  return chocolateBars3
 }
 
 function destructivelyAddElementEndOfArray(chocolateBars, moreChocolateBars) {
